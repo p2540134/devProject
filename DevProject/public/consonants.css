@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    padding: 0 20px;
+    height: 100vh;
+}
+section{
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 40px 20px;
+}
+
+#title{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: green;
+}
+
+.questions{
+    margin: 20px auto;
+    width: 500px;
+    padding: 20px;
+
+}
+
+#question{
+    margin-bottom: 20px;
+}
+.option{
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+.option:hover{
+    background-color: #d8d8d8;
+}
+ol{
+    position: relative;
+    padding: 0 25px;
+}
+span{
+    display: block;
+    padding: 5px 0;
+}
+#answer{
+    margin-top: 20px;
+}
+#stat{
+    margin-top: 20px;
+}
+.buttons{
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+#scoreboard, #answerBank{
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    position: relative;
+    display: none;
+}
+#scoreboard h2{
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px;
+    background: green;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.wrapper{
+    width: 370px;
+    border-radius: 7px;
+    padding: 25px 0;
+    background: #fff;
+    display: block;
+    
+}
+.wrapper form{
+margin: 0 0 20px;
+}
+.wrapper form .row{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.wrapper form .row label{
+    font-size: 18px ;
+    margin-bottom: 5px;
+}
+.wrapper form :where(textarea, select, button){
+    outline: none;
+    width: 100%;
+    border: none;
+    border-radius: 5px
+}
+.wrapper form .row textarea{
+    resize: none;
+    height: 50px;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid #999;
+}
+.words-row{
+    display: flex;
+    align-items: center;
+}
+.words-row #words{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.words-row #ken{
+    background: none;
+    font-size: 20px;
+}

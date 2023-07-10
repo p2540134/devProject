@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus{
+    outline: rgb(38, 255, 38);
+}
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form{
+    width: 400px;
+    height: auto;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    color: #333;
+}
+input, .submit{
+    width: 80%;
+    height: 35px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    color: #333;
+    border: 1px solid #333;
+    padding: 15px;
+    transition: .5s;
+}
+input::placeholder{
+    color: #333;
+}
+input:focus{
+    border: rgb(38, 255, 38);
+}
+.form button{
+    width: auto;
+    padding: 0 20px;
+    cursor: pointer;
+    margin: 50px auto 0;
+    background: rgb(19, 255, 19);
+}
+.form a{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin: 30px auto;
+}
+
+.alert-box{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 150px;
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background: rgb(255, 59, 59);
+    color: white;
+    text-align: center;
+    transition: 1s;
+}
